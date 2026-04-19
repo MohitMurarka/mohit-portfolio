@@ -89,7 +89,7 @@ export default function Hero() {
             <div className="relative z-10 flex gap-4 mt-6">
               {[
                 { icon: <GitBranch size={22} strokeWidth={3}/>, href: 'https://github.com/MohitMurarka', label:'GITHUB' },
-                { icon: <ExternalLink size={22} strokeWidth={3}/>, href: 'https://linkedin.com/in/mohit-murarka', label:'LINKEDIN' },
+                { icon: <ExternalLink size={22} strokeWidth={3}/>, href: 'https://www.linkedin.com/in/mohit-murarka-b165882aa/', label:'LINKEDIN' },
                 { icon: <Mail size={22} strokeWidth={3}/>, href: 'mailto:mohitmurarka2004@gmail.com', label:'EMAIL' },
               ].map(({ icon, href, label }) => (
                 <a

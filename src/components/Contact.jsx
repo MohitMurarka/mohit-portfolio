@@ -25,7 +25,7 @@ const channels = [
     value: 'linkedin.com/in/mohit-murarka',
     bg: 'bg-neo-violet',
     rotate: 'rotate(3deg)',
-    href: 'https://linkedin.com/in/mohit-murarka',
+    href: 'https://www.linkedin.com/in/mohit-murarka-b165882aa/',
   },
   {
     label: 'PHONE',
