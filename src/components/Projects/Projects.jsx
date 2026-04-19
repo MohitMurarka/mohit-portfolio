@@ -137,7 +137,6 @@ export default function Projects() {
                 </div>
                 <div className="flex flex-wrap gap-3 pt-4 border-t-4 border-black">
                   <Button variant="outline" href="https://github.com/MohitMurarka/quant-research-agent">VIEW ON GITHUB ↗</Button>
-                  <Button variant="primary">READ CASE STUDY →</Button>
                 </div>
               </div>
               {/* Right — pipeline */}
