@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitBranch, ExternalLink, Mail, Star } from 'lucide-react';
+import { GitBranch, ExternalLink, Mail, Star , Code2  } from 'lucide-react';
 import Button from './ui/Button';
 import StatsTicker from './StatsTicker';
 
@@ -91,6 +91,7 @@ export default function Hero() {
                 { icon: <GitBranch size={22} strokeWidth={3}/>, href: 'https://github.com/MohitMurarka', label:'GITHUB' },
                 { icon: <ExternalLink size={22} strokeWidth={3}/>, href: 'https://www.linkedin.com/in/mohit-murarka-b165882aa/', label:'LINKEDIN' },
                 { icon: <Mail size={22} strokeWidth={3}/>, href: 'mailto:mohitmurarka2004@gmail.com', label:'EMAIL' },
+                { icon: <Code2 size={22} strokeWidth={3}/>, href: 'https://leetcode.com/u/Mohit_Murarka/', label:'LEETCODE' },
               ].map(({ icon, href, label }) => (
                 <a
                   key={label}

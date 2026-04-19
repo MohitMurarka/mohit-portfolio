@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, GitBranch, ExternalLink, Phone, Send } from 'lucide-react';
+import { Mail, GitBranch, ExternalLink, Phone, Send ,Code2 } from 'lucide-react';
 import Button from './ui/Button';
 
 const channels = [
@@ -34,6 +34,14 @@ const channels = [
     bg: 'bg-neo-yellow',
     rotate: 'rotate(-2deg)',
     href: 'tel:+916295184469',
+  },
+  {
+  label: 'LEETCODE',
+  icon: <Code2 size={40} strokeWidth={4}/>,
+  value: 'leetcode.com/u/Mohit_Murarka',
+  bg: 'bg-neo-orange',
+  rotate: 'rotate(1deg)',
+  href: 'https://leetcode.com/u/Mohit_Murarka/',
   },
 ];
 
