@@ -82,7 +82,7 @@ export default function Hero() {
             {/* CTA buttons */}
             <div className="relative z-10 flex flex-wrap gap-4 mt-8">
               <Button variant="primary" href="#projects" large>VIEW PROJECTS →</Button>
-              <Button variant="secondary" href="/resume.pdf" large>DOWNLOAD CV ↓</Button>
+              <Button variant="secondary" href="https://drive.google.com/file/d/1pTAvUNKDEAnJg5wxaIcFjEIecZnNOUiS/view?usp=sharing" large>DOWNLOAD CV ↓</Button>
             </div>
 
             {/* Social links */}
