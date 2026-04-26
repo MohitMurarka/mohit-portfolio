@@ -60,7 +60,7 @@ export default function Hero() {
                 className="bg-neo-red border-4 border-black px-6 py-4 flex flex-col items-center"
                 style={{boxShadow:'6px 6px 0px 0px #000', transform:'rotate(3deg)'}}
               >
-                <span className="font-black text-5xl leading-none">5</span>
+                <span className="font-black text-5xl leading-none">6</span>
                 <span className="font-black text-xs uppercase tracking-widest">PROJECTS SHIPPED</span>
               </div>
               <div
